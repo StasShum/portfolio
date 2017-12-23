@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+.it-labor{
+    margin-left:350px;
+    height:20px;
+        width:20px;
+}
+.header{
+    height:30px;
+    width:375px;
+        
+}
+
+.disabled{
+    width:200px;
+    height:810px;
+    background:#065572;
+    transition:1s;
+    left:-200px;
+ 
+    position:absolute;
+    
+}
+.logo{
+    margin-left: 200px;
+   
+}
+.fone{
+	position:absolute;
+	margin-top:79px;
+	width:100%;
+	height:480%;
+}
+.side-nav{
+	position:absolute;
+}
+.hah{
+  position:absolute;
+}

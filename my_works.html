@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="materialize/css/materialize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Главная страница</title>
+</head>
+
+<body>
+   	<img src="img/background.jpg" alt="" class="fone">
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="img/images.jpg">
+                </div>
+                <a href="#!user"><img class="circle" src="img/me.jpg"></a>
+                <a href="#!name"><span class="white-text name">Стас Шумилов</span></a>
+                <a href="#!email"><span class="white-text email">nann@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="my_works.html"><i class="material-icons">cloud</i>Мои работы </a></li>
+        <li><a href="concerts.html">Мои выступления </a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader" href="projects.html"> Какие проэкты я хочу сделать </a></li>
+        <li><a class="waves-effect" href="about_me.html">Назад в меню</a></li>
+    </ul>
+    <div class="row">
+        <div class="col s12 valign-wrapper
+           grey darken-2" style="padding-top: 10px;">
+            <a href="#" data-activates="slide-out" class="button-collapse"><img src="img/menu.png" alt="" style="width: 60px; margin-top: 10px;"></a>
+            <span class="brand-logo logo flow-text">Шумилов Станислав</span>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/me.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+
+                    <a class="white-text" href="my_dostizheniya.html">Мои достижения </a>
+                    <h5 class="light grey-text text-lighten-3"> Здесь можно посмотреть мои достижения</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/aha.png">
+                <!-- random image -->
+                <div class="caption left-align">
+
+                    <a class="white-text" href="it-labor.html ">обучение It-labor school</a>
+                    <h5 class="light grey-text text-lighten-3"> Здесь можно узнать по подробнее о it-labor school</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/novye-znaniya.jpg">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <a class="white-text" href="my_school.html">Мои знания</a>
+                    <h5 class="light grey-text text-lighten-3">Здесь можно узнать про мои знания и про мою школу</h5>
+                </div>
+            </li>
+            
+
+            <li>
+                <img src="img/i.webp">
+                <!-- random image -->
+                <div class="caption center-align">
+
+                    <a class="white-text" href="profetion.html">Моя профессия </a>
+                    <h5 class="light grey-text text-lighten-3">кем я бы хотел быть </h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+   
+     <div class="row container">
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/21.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">работа1<i class="material-icons right">more_vert</i></span>
+                    <p></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">работа1</span>
+                    <p>  <a href="">Можете поиграть</a>   </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/screen.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">работа2<i class="material-icons right">more_vert</i></span>
+                    <p></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">работа2</span>
+                    <a href="my_dostizheniya.html">
+                     работа2
+                    </a>
+                    <p> <a href="game/index.html">Можете поиграть</a> 
+                    
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.slider').slider();
+
+            $(".button-collapse").sideNav();
+
+
+        });
+
+    </script>
+</body>
+
+</html>
